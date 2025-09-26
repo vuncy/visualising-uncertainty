@@ -1,0 +1,88 @@
+/* ===== Full Purple Theme Overrides ===== */
+:root {
+  --bs-primary: #7b529c;
+  --bs-secondary: #3a1b52;
+}
+
+/* General backgrounds */
+body, header, footer, .navbar, .masthead {
+  background-color: var(--bs-primary) !important;
+}
+
+/* Sections */
+.section, .bg-primary {
+  background-color: var(--bs-primary) !important;
+}
+.bg-secondary {
+  background-color: var(--bs-secondary) !important;
+}
+
+/* Text colors */
+body, p, span, div {
+  color: var(--bs-secondary) !important;
+}
+h1, h2, h3, h4, h5, h6, .text-primary {
+  color: var(--bs-primary) !important;
+}
+.text-secondary {
+  color: var(--bs-secondary) !important;
+}
+
+/* Links */
+a, a:hover, a:visited, a:active {
+  color: var(--bs-primary) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary) !important;
+}
+.btn-primary:hover {
+  background-color: #6a4687 !important;
+  border-color: #6a4687 !important;
+}
+.btn-secondary {
+  background-color: var(--bs-secondary) !important;
+  border-color: var(--bs-secondary) !important;
+}
+.btn-secondary:hover {
+  background-color: #301640 !important;
+  border-color: #301640 !important;
+}
+
+/* Tables */
+table, table th, table td {
+  border-color: var(--bs-secondary) !important;
+}
+table thead th {
+  background-color: var(--bs-primary) !important;
+  color: #fff !important;
+}
+
+/* Figures and captions */
+figure, figcaption {
+  color: var(--bs-secondary) !important;
+}
+
+/* Horizontal rules and borders */
+hr, .border-primary {
+  border-color: var(--bs-primary) !important;
+}
+.border-secondary {
+  border-color: var(--bs-secondary) !important;
+}
+
+/* Cards, panels, and sections */
+.card, .panel, .portfolio-item {
+  border-color: var(--bs-secondary) !important;
+}
+.card-header, .card-footer, .panel-heading {
+  background-color: var(--bs-primary) !important;
+  color: #fff !important;
+}
+
+/* Other accent elements */
+.navbar-brand, .section-heading, .portfolio-caption {
+  color: var(--bs-primary) !important;
+}
