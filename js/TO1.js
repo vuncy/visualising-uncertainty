@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }).addTo(map);
 
     // Load GeoJSON
-    fetch("assets/augsburg-nm-clip-08102025.geojson")
+    fetch("assets/augsburg-nm-reproj-08102025.geojson")
         .then(response => response.json())
         .then(data => {
 
