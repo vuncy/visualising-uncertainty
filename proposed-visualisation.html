@@ -12,6 +12,8 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <link href="css/custom.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -37,42 +39,44 @@
         </nav>
         <section class="page-section cta">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-9 mx-auto">
-                        <div class="cta-inner bg-faded text-center rounded p-5">
-                            <h2 class="section-heading mb-5">
-                                <span class="section-heading-upper">What’s Coming Here?</span>
-                                <span class="section-heading-lower">Our Proposed Visualisation</span>
-                            </h2>
+              <div class="row">
+                <div class="col-xl-9 mx-auto">
+                  <div class="cta-inner bg-faded text-center rounded p-5">
+                    <h2 class="section-heading mb-5">
+                      <span class="section-heading-upper">What’s Coming Here?</span>
+                      <span class="section-heading-lower">Our Proposed Visualisation</span>
+                    </h2>
+          
+                    <ul class="list-unstyled list-hours mb-4 text-left mx-auto">
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Visualisation patterns
+                        <span class="ms-auto">under review</span>
+                      </li>
+                      <li class="list-unstyled-item list-hours-item d-flex">
+                        Uncertainty
+                        <span class="ms-auto">on noise model</span>
+                      </li>
+                    </ul>
+          
+                    <p class="mb-4">
+                      <em><strong>We are currently working on this content ⏳</strong></em>
+                      <br />
+                      Stay tuned for updates and visualisations!
+                    </p>
 
-                            <ul class="list-unstyled list-hours mb-4 text-left mx-auto">
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Visualisation patterns
-                                    <span class="ms-auto">under review</span>
-                                </li>
-                                <li class="list-unstyled-item list-hours-item d-flex">
-                                    Uncertainty
-                                    <span class="ms-auto">on noise model</span>
-                                </li>
-                            </ul>
+                    <div id="map" style="height: 500px; width: 100%;"></div>
 
-                            <p class="mb-4">
-                                <em><strong>We are currently working on this content ⏳</strong></em>
-                                <br />
-                                Stay tuned for updates and visualisations!
-                            </p>
 
-                            <p class="mb-0">
-                                <small><em>Best regards,</em></small>
-                                <br />
-                                VUNCY Creator
-                            </p>
-                        </div>
-                    </div>
+                    <p class="mb-0">
+                      <small><em>Best regards,</em></small>
+                      <br />
+                      VUNCY Creator
+                    </p>
+                  </div>
                 </div>
+              </div>
             </div>
-
-        </section>
+          </section>
         <section class="page-section about-heading">
             <div class="text-center">
                 <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="assets/img/end.png" alt="..." style="align-items: center; max-width: 50%; height: auto;"/>
@@ -98,5 +102,11 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Other content here -->
+
+        <!-- Scripts at the end of body -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+        <script src="js/TO1.js"></script>
+        
     </body>
 </html>
