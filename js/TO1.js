@@ -5,11 +5,12 @@ document.addEventListener("DOMContentLoaded", function () {
     var map = L.map("map").setView([48.3705, 10.8978], 13);
 
     // Add a pale base tile
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OpenStreetMap &copy; CARTO',
         subdomains: 'abcd',
         maxZoom: 19
     }).addTo(map);
+
 
     // Load GeoJSON
     fetch("assets/augsburg-nm-7500-08102025.geojson")
