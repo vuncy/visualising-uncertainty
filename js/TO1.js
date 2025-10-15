@@ -19,9 +19,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // ---- 3 Time-of-Day Layers ----
             const colorSchemes = {
-                day: ["#264653","#2a9d8f","#e9c46a","#f4a261","#e76f51"],
-                evening: ["#f4a261","#e76f51","#e9c46a","#2a9d8f","#264653"],
-                night: ["#2a9d8f","#264653","#e76f51","#f4a261","#e9c46a"]
+            day: ["#FFE5B4", "#FFC178", "#FFA500", "#FF8C00", "#E07B00"], // orange gradation
+            evening: ["#E0BBE4", "#C89FEF", "#A074E8", "#8648D8", "#5D3A9B"], // purple gradation
+            night: ["#1C1C1C", "#2B2B2B", "#3A3A3A", "#4A4A4A", "#5A5A5A"], // black/gray gradation
+
             };
 
             function styleFactory(scheme) {
